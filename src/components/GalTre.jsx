@@ -62,7 +62,7 @@ class GalTre extends Component {
             )}
       <Row className="mt-5">
     {this.state.movies.map(movie => (
-      <Col sm={6} md={4} lg={2} key={movie.imdbID}>
+      <Col sm={6} md={4} lg={3} key={movie.imdbID}>
         <Card>
           <Card.Img variant="top" src={movie.Poster} />
           <Card.Body className="bg-dark">
