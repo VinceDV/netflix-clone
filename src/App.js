@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import TextLinkExample from './components/MyNav';
+import GalUno from './components/GalUno';
+import GalDue from './components/GalDue';
+import GalTre from './components/GalTre';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TextLinkExample />
+      <GalUno />
+      <GalDue />
+      <GalTre />
     </div>
   );
 }
