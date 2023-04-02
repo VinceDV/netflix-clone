@@ -25,7 +25,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+#header {
+  border-bottom: 1px solid black;
 
+}
 .App-link {
   color: #61dafb;
 }
@@ -41,4 +44,26 @@
 
 #navbarScrollingDropdown {
   color: white;
+}
+.carte img{
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 300px;
+}
+.carousel-control-prev-icon {
+  position: absolute;
+  left: 0em;
+  background-color: black;
+}
+.carousel-control-next-icon {
+  position: absolute;
+  right: 0em;
+  background-color: black;
+}
+#carowTainer {
+  margin-bottom: 2em;
+}
+.carousel-indicators button{
+display: none;
 }

@@ -8,7 +8,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 function TextLinkExample() {
   return (
     <header className="sticky-top">
-      <Navbar bg="dark" expand="lg">
+      <Navbar id="header" bg="dark" expand="lg">
         <Container className="m-2" fluid>
           <a href="javascript=0">
             <img
