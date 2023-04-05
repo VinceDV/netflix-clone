@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.tvshows {
+  margin-top: .5em;
+  text-decoration: none;
+}

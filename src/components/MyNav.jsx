@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 
 function TextLinkExample() {
   return (
@@ -25,7 +26,7 @@ function TextLinkExample() {
               navbarScroll
             >
               <Nav.Link className="text-light" href="#action1">Home</Nav.Link>
-              <Nav.Link className="text-light" href="#action2">TV Shows</Nav.Link>
+              <Link className="text-light tvshows" to={"/tvshows"}>TV Shows</Link>
               <NavDropdown className="text-light" title="Genres" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#action3">Horror</NavDropdown.Item>
                 <NavDropdown.Item href="#action4">Comedy</NavDropdown.Item>
