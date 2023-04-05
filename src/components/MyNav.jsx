@@ -11,13 +11,13 @@ function TextLinkExample() {
     <header className="sticky-top">
       <Navbar id="header" bg="dark" expand="lg">
         <Container className="m-2" fluid>
-          <a href="javascript=0">
+          <Link to={"/"}>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
               alt="logo"
               width={150}
             />
-          </a>
+          </Link>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -25,8 +25,8 @@ function TextLinkExample() {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link className="text-light" href="#action1">Home</Nav.Link>
-              <Link className="text-light tvshows" to={"/tvshows"}>TV Shows</Link>
+              <Link className="text-light tvshows" to={"/"}>Home</Link>
+              <Link className="text-light tvshows" to={"/tvShows"}>TV Shows</Link>
               <NavDropdown className="text-light" title="Genres" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#action3">Horror</NavDropdown.Item>
                 <NavDropdown.Item href="#action4">Comedy</NavDropdown.Item>

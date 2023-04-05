@@ -3,7 +3,10 @@
   background-color: #212529;
   color: white;
 }
-
+html, body {
+  background-color: #212529;
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -66,4 +69,9 @@
 }
 .carousel-indicators button{
 display: none;
+}
+.tvshows {
+  margin-top: .5em;
+  margin-right: 1em;
+  text-decoration: none;
 }
